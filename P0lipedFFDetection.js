@@ -192,6 +192,5 @@ var p0FF = (function(document, window, undefined){
 		wynik = number;
 	});
 	return wynik;
-}
-	
+
 })(document, window);
