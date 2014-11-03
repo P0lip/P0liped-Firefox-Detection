@@ -33,7 +33,9 @@ The size of minified and gzipped tool shouldn't exceed ~2-3 KB, so it's quite li
 
 Browser Compatibility
 --
-I tested the tool on all main releases starting from 2 to 36, including ESR. 
-In browser newer (like 36+) than the most current, it may return unexpected results (in 36 it returns 35, but 36 is not added to the list yet) , but I'll keep updating it, so no worries.
+I tested the tool on all main releases starting from 2 to 33, including ESR. 
+I still have to mantain some tests on versions like 3.5.18 or 20.0.0.0, because I always chose the latest one for the following release.
+In browser that aren't in stable stream, it may return unexpected results (in 36 it returns 35, but 36 is not added to the list yet), but I'll keep updating it, so no worries.
+
 
 [bugtracker]:http://beta.elchi3.de/doctracker/
