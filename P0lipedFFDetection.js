@@ -184,13 +184,13 @@ var p0FF = (function(document, window, undefined){
 		return result.sort(sortNumbers);
 	  }
 	}();
-	var wynik = false;
+	var result = false;
 	order.forEach(function(number, n){
-	  if(wynik)
+	  if(result)
 		return false;
 	  if(allTests[number]() && (n !== 0 ? !allTests[order[n-1]]() : true))
-		wynik = number;
+		result = number;
 	});
-	return wynik;
+	return result;
 
 })(document, window);
