@@ -184,7 +184,7 @@ var p0FF = (function(document, window, undefined){
 		return result.sort(sortNumbers);
 	  }
 	}();
-	var result = false;
+	var result;
 	order.forEach(function(number, n){
 	  if(result)
 		return false;
