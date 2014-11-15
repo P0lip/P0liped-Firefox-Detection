@@ -14,7 +14,7 @@ var p0FF = (function(document, window, undefined){ // It returns a number with p
 	isHTMLElementSupported = function(){  // Function that checks whether a HTML Element with the given tag is recognized by the browser or not. Returns a boolean.
 	  var toString = Object.prototype.toString; // We cache this function as a local variable for futher use.
 	  return function(tag){
-		toString.call(createHTMLElement(tag)) !== "[object HTMLUnknownElement]"; // When the browser doesn't recognize the element, it's always treated as HTMLUnknownElement.
+		return toString.call(createHTMLElement(tag)) !== "[object HTMLUnknownElement]"; // When the browser doesn't recognize the element, it's always treated as HTMLUnknownElement.
 	  };
 	}(),
 	isFunctionNative = function(){ // Function checking if the function passed as an argument is native or not. Returns a boolean.
