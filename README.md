@@ -1,7 +1,9 @@
-P0liped-FF-Detection
+P0liped FF Detection
 ====================
 
 **A small script detecting Firefox version.**
+
+**Currently in beta stage - still testing few versions**
 
 P0liped FF Detection uses feature detection and some resolved bugs to detect the proper Firefox version - no matter what the UserAgent string is.
 
