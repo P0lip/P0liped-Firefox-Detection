@@ -1,4 +1,4 @@
-P0liped FF Detection
+P0liped Firefox Detection
 ====================
 
 **A small script detecting Firefox version.**
