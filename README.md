@@ -3,8 +3,6 @@ P0liped Firefox Detection
 
 **A small script detecting Firefox version.**
 
-**Currently in beta stage - still testing few versions**
-
 P0liped FF Detection uses feature detection and some resolved bugs to detect the proper Firefox version - no matter what the UserAgent string is.
 
 It's perfect when you found a really annoying quirk (mostly in the layout engine, as usually it's much easier to handle the ones connected with the JavaScript engine). 
@@ -31,6 +29,10 @@ http://beta.elchi3.de/doctracker/#list=fx&version=22.0 - bugs resolved in 22 ver
 
 Usage
 --
+```
+console.log(window.p0FFx); // OUTPUT: Firefox's version number.
+```
+
 The size of minified and gzipped tool shouldn't exceed ~2-3 KB, so it's quite lightweight. I tried not to add many features to keep it tiny. However, I may add some more in the future when you report me some bugs.
 
 Browser Compatibility
