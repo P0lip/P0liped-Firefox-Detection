@@ -91,8 +91,8 @@ window.p0FFx = (function(document, window, undefined){
        * Most of features/bugs (also other added features) may be found here https://developer.mozilla.org/en-US/Firefox/Releases/XX -> XX stands for version number.
        * To each test I added (or will add) some extra tests you may use, but remember to test them on your own. 
        */
-      
-      34: function(){ return isFunctionNative(Object.assign) },
+      35: function(){ return isFunctionNative(Element.prototype.closest); },
+      34: function(){ return isFunctionNative(Object.assign); },
       33: function(){ return isCSSFeatureSupported("color", "rebeccapurple"); }, // Added support for rebeccapurple, a new <color> name defined in CSS Colors level 4 https://bugzilla.mozilla.org/show_bug.cgi?id=1024642
        /* Additional tests for 33:
         * isFunctionNative(window.CSSCounterStyleRule) -> Implemented @counter-style rule https://bugzilla.mozilla.org/show_bug.cgi?id=966166 
